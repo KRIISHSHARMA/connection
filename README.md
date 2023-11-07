@@ -60,6 +60,9 @@
   - **HDD**
   - **SDD**
   - **OPTICAL DISK**
+- **SAN** : A Storage Area Network (SAN) is a network of storage devices that can be accessed by multiple servers or computers, providing a shared pool of storage space
+- **NAS** : Network-attached storage (NAS) is dedicated file storage that enables multiple users and heterogeneous client devices to retrieve data from centralized disk capacity. Users on a local area network (LAN) access the shared storage via a standard Ethernet connection.
+- 
 
 # ARCHITECTURE
 - **RISC** - Reduced Instruction Set Computer- Closed source - ARM
@@ -85,8 +88,12 @@
 -  **HCI**- Hyperconverged infrastructure (HCI) is a software-defined, unified system that combines all the elements of a traditional data center: storage, compute, networking and management.
 -  **HCI**- Hyperconverged infrastructure (HCI) is a software-defined, unified system that combines all the elements of a traditional data center: storage, compute, networking and management.
 
-# CACHING
-- **application server cache** 
+# Caching
+- *Application Server Cache*: Placing a cache directly on a request layer node (Local Storage of Response).
+- *Bottle Neck*- If a same requaest is sent to different nodes by load balancer
+- *Distributed cache: Divided using consistent *Hashing function.
+  - *Hashing*: The process of transforming any given key or a string of characters into another value.  
+- *Gloabal Cache*
 
 
 
