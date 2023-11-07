@@ -62,7 +62,7 @@
   - **OPTICAL DISK**
 - **SAN** : A Storage Area Network (SAN) is a network of storage devices that can be accessed by multiple servers or computers, providing a shared pool of storage space
 - **NAS** : Network-attached storage (NAS) is dedicated file storage that enables multiple users and heterogeneous client devices to retrieve data from centralized disk capacity. Users on a local area network (LAN) access the shared storage via a standard Ethernet connection.
-- 
+- **NFS** : Network File System is a distributed file system protocol originally developed by Sun Microsystems in 1984, allowing a user on a client computer to access files over a computer network much like local storage is accessed
 
 # ARCHITECTURE
 - **RISC** - Reduced Instruction Set Computer- Closed source - ARM
@@ -87,7 +87,9 @@
   - dynamic schema
 -  **HCI**- Hyperconverged infrastructure (HCI) is a software-defined, unified system that combines all the elements of a traditional data center: storage, compute, networking and management.
 -  **HCI**- Hyperconverged infrastructure (HCI) is a software-defined, unified system that combines all the elements of a traditional data center: storage, compute, networking and management.
-
+- **proxy server** : A proxy server is a system or router that provides a gateway between users and the internet. Therefore, it helps prevent cyber attackers from entering a private network.
+  - ***forward proxy*** : A forward proxy is an intermediary that sits between one or more user devices and the internet.
+  - ***reverse proxy*** : A reverse proxy server is a type of proxy server that typically sits behind the firewall in a private network and directs client requests to the appropriate backend server.
 # Caching
 - *Application Server Cache*: Placing a cache directly on a request layer node (Local Storage of Response).
 - *Bottle Neck*- If a same requaest is sent to different nodes by load balancer
