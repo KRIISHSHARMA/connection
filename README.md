@@ -67,6 +67,11 @@
 -  **Von Neumann Architecture**
 -  **Hagward Architecture** 
 - **ISA** - Instruction Set Architecture - An Instruction Set Architecture (ISA) is part of the abstract model of a computer that defines how the CPU is controlled by the software. The ISA acts as an interface between the hardware and the software, specifying both what the processor is capable of doing as well as how it gets done.
+- **system design**
+  - **cap theorem** ( consistency , availability , patition tolerance ) : all 3 of them cant be achieved at the same time , 2 have to be chosen based on the requirements
+  - **redudancy and replication**
+    - makes sure that data has its backup in case of emergency
+    - increases reliability
 
 # DATABASE 
 - **SQL**
@@ -78,9 +83,10 @@
   - distributed
   - dynamic schema
 -  **HCI**- Hyperconverged infrastructure (HCI) is a software-defined, unified system that combines all the elements of a traditional data center: storage, compute, networking and management.
+-  **HCI**- Hyperconverged infrastructure (HCI) is a software-defined, unified system that combines all the elements of a traditional data center: storage, compute, networking and management.
 
-
-
+# CACHING
+- **application server cache** 
 
 
 
